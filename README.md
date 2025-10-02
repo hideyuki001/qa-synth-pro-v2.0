@@ -1,4 +1,3 @@
-# 🔁 QA Synth Pro v2.0 — Structural Translation Self-Review Template
 # 🔁 QA Synth Pro v2.0 — Structural Translation Self-Review Template  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
