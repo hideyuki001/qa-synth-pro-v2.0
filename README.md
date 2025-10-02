@@ -8,38 +8,54 @@ This repository provides a **structured and retrainable self-review template** f
 ---
 
 ## 📐 Evaluation Axes (5D + Optional)
-1. **Semantic Layout** – Semantic core retention, node mapping  
-2. **Structural Flow** – Syntactic trunk stability, punctuation, conjunctions  
-3. **Spacetime Dynamics** – Temporal/causal/emotional sequencing  
-4. **FPE Standards** – Post-edit corrections, natural style, register consistency  
-5. **Neural Alignment** – Syntactic reproducibility, vector suitability for AI corpora  
-💭 Optional: **Translation Resonance** – Rhythm, imagery, poetic cadence
+
+1. **Semantic Layout** – Semantic core retention, syntax node mapping  
+2. **Structural Flow** – Syntactic trunk stability, punctuation, conjunction usage  
+3. **Spacetime Dynamics** – Temporal, causal, and emotional sequencing  
+4. **FPE Standards** – Post-editing corrections, style appropriateness, register consistency  
+5. **Neural Alignment** – Syntactic reproducibility, parallel corpus suitability  
+
+💭 **Optional**: Translation Resonance – Rhythm, imagery, poetic cadence
 
 ---
 
 ## 📘 Documentation
-- `docs/system_instructions.md` → Full framework specification (8000 chars)  
-- `docs/scoring_logic.md` → Pseudo BLEU/ROUGE logic (structural fidelity scoring)  
+
+- `docs/system_instructions.md` → Full specification (8000 chars, transparency & reproducibility)  
+- `docs/scoring_logic.md` → Pseudo BLEU/ROUGE structural scoring logic  
 - `docs/self_review_axes.md` → Five-axis evaluation guide  
 - `docs/examples.md` → Sample reviews with revision proposals  
 
 ---
 
 ## 🧪 Examples
-- `examples/cn-ja_review.md` → Chinese→Japanese translation self-review  
-- `examples/en-ja_review.md` → English→Japanese QA case  
-- `examples/en-fr_review.md` → French QA case  
+
+- `examples/en-ja_review.md` → English→Japanese review case  
+- `examples/cn-ja_review.md` → Chinese→Japanese review case  
+- `examples/en-fr_review.md` → English→French review case  
+
+---
+
+## 📂 Repository Structure
+
+- `docs/` → Full specifications & guides  
+- `examples/` → Case studies (EN→JA, CN→JA, EN→FR, …)  
+- `templates/` → Self-review forms for Notion, Google Docs, Word (planned)  
 
 ---
 
 ## ⚙️ Deployment
-✅ Usable as self-review sheets in **Notion / Google Docs / Word**  
+
+✅ Usable as a self-review sheet in **Notion / Google Docs / Word**  
 ✅ Compatible with BLEU/ROUGE auto-scores (comparative comments)  
-✅ Exportable to JSON/CSV for **RLHF training and QA education**
+✅ Exportable to JSON/CSV for **RLHF training and translation QA education**
 
 ---
 
 ## 🚀 Usage
+
+Example self-review workflow:
+
 ```bash
-# Example: Self-review evaluation (pseudo logic)
+# Evaluate a translation draft with pseudo scoring
 python evaluate.py --input my_translation.txt --axes 5 --output review.json
