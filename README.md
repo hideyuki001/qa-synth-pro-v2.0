@@ -1,4 +1,9 @@
 # 🔁 QA Synth Pro v2.0 — Structural Translation Self-Review Template
+# 🔁 QA Synth Pro v2.0 — Structural Translation Self-Review Template  
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+[![GitHub stars](https://img.shields.io/github/stars/hideyuki001/qa-synth-pro-v2.0?style=social)](https://github.com/hideyuki001/qa-synth-pro-v2.0/stargazers)  
+[![Release](https://img.shields.io/github/v/release/hideyuki001/qa-synth-pro-v2.0)](https://github.com/hideyuki001/qa-synth-pro-v2.0/releases)  
 
 🎯 **Intended Audience**  
 Translators, translation trainees, educators, RLHF data curators
