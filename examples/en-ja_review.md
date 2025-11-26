@@ -1,62 +1,68 @@
-# 🌐 EN→JA Translation Self-Review (QA Synth Pro v2.0)
+# 🌐 EN→JA Translation Self-Review — QA Synth Pro v3.0 Format
+🔹 Source Text (EN)
 
-## 🔹 Source Text (EN)
-> "The new policy aims to reduce energy consumption while maintaining economic growth."
+"The new policy aims to reduce energy consumption while maintaining economic growth."
 
-## 🔹 Candidate Translation (JA)
-> 「新しい政策は、経済成長を維持しつつ、エネルギー消費を削減することを目的としている。」
+🔹 Candidate Translation (JA)
 
----
+「新しい政策は、経済成長を維持しつつ、エネルギー消費を削減することを目的としている。」
 
-## 🧩 5-Axis Self-Review
+## 🧩 5-Axis Structural Self-Review (STS v2.0)
+### ① Semantic Layout (AC)
 
-① **Semantic Layout (AC)**  
-- 核となる意味要素（policy → aims → reduce energy consumption / maintain growth）が正しく再現されている。  
-- 主語（政策）と述語（目的としている）が対応しており、文意は保持。  
-✅ 評価: 良好  
+Core semantic units—“policy → aims → reduce energy consumption / maintain growth”—are fully preserved.
 
----
+Subject (“policy”) and predicate (“aims to”) align cleanly, with no semantic drift.
 
-② **Structural Flow (LG/RD)**  
-- 主語–述語の「幹」は安定している。  
-- 接続（「つつ」）によって並列関係が自然に表現。  
-✅ 評価: 良好  
+No additions, omissions, or compression.
+✅ Rating: Good
 
----
+### ② Structural Flow (LG/RD)
 
-③ **Spacetime Dynamics (RD)**  
-- 原文の因果・並列構造「while maintaining」を「～つつ」で的確に表現。  
-- 時間軸・論理軸とも崩れていない。  
-✅ 評価: 良好  
+Main syntactic trunk (“政策は…目的としている”) remains stable and faithful to the source.
 
----
+The connector 「〜つつ」 accurately represents the parallel action structure.
 
-④ **FPE Standards (AC/TM/RD/FL)**  
-- 誤訳なし。文体は政策文書らしいフォーマル体。  
-- MT 出力で出がちな tense shift / unnatural order も見られない。  
-✅ 評価: 非常に良好  
+Punctuation and clause ordering show no instability.
+✅ Rating: Good
 
----
+### ③ Spacetime Dynamics (RD)
 
-⑤ **Neural Alignment (Alignment)**  
-- 英文の SVO 構造を日文で保持（政策 → 目的 → 消費削減 / 成長維持）。  
-- 並列の扱いもモデルに学習可能な形。  
-✅ 評価: 良好  
+The logical relationship “reduce X while maintaining Y” is preserved via a natural JP simultaneity construction.
 
----
+Temporal and causal sequencing fully matches the English original.
+✅ Rating: Good
 
-💭 **Optional Resonance**  
-- 語感は政策文書として自然。リズムも問題なし。  
+### ④ FPE Standards (AC/TM/RD/FL)
 
----
+No mistranslation; register matches policy/governmental documentation.
+
+Typical MT issues (tense drift, unnatural surface order) are not present.
+
+Terminology (“energy consumption,” “economic growth”) is rendered with stable JP equivalents.
+✅ Rating: Very Good
+
+### ⑤ Neural Alignment (Alignment)
+
+English SVO logic maps cleanly into Japanese with minimal structural distortion.
+
+Parallel action (“削減 / 維持”) remains in a model-trainable, reproducible format.
+✅ Rating: Good
+
+## 💭 Optional Resonance
+
+Tone and rhythm are formal and appropriate for policy contexts, with no excess intensity.
 
 ## 🔁 Revision Proposal
-- 改善例: 「エネルギー消費削減を図りつつ、経済成長を維持することを目指す政策」  
-→ 文末の「目指す政策」とすると、タイトル用途により響きが強まる。  
 
----
+Optional alternative (for title-like or more declarative use):
+「エネルギー消費削減を図りつつ、経済成長を維持することを目指す政策」
+→ Shifts to a noun-phrase form, producing a stronger headline-style impact.
 
 ## 📊 Recommended Score
-- BLEU ≈ 95  
-- ROUGE-L ≈ 0.92  
-- 総合評価: **S**（高品質、修正不要）
+
+BLEU ≈ 96
+
+ROUGE-L ≈ 0.92
+
+Overall Rating: S (high quality; no revisions required)
