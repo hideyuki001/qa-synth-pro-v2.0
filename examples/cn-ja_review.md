@@ -1,4 +1,4 @@
-# 🌐 CN→JA Translation Self-Review — QA Synth Pro v3.0
+# 🌐 CN→JA Translation Self-Review — QA Synth Pro v3.0 (English Version)
 🔹 Source Text (CN)
 
 "请在提交之前仔细检查文件格式。"
@@ -10,66 +10,60 @@
 ## 🧩 5-Axis Structural Self-Review (STS v2.0)
 ### ① Semantic Layout (AC)
 
-原文の意味軸「提交之前 → 仔细检查文件格式」を完全保持。
+The semantic axis “提交之前 → 仔细检查文件格式” is fully preserved in the Japanese output.
 
-命令文で主語省略は自然で原文機能に一致。
+Subject omission is natural and functionally aligned with imperative constructions in Japanese.
 
-意味圧縮・意味増幅ともになし。
-
-✅ 評価：良好
+No semantic compression, expansion, or drift.
+✅ Rating: Good
 
 ### ② Structural Flow (LG/RD)
 
-時間節「〜する前に」を前置し、原文の情報順を忠実に再現。
+The temporal clause “〜する前に” is fronted, mirroring the information order of the source.
 
-主干「確認してください」が安定し、指示文としてのレジスターも整合。
+The main predicate “確認してください” is stable and register-appropriate for an instruction.
 
-句読点・語順に揺れなし。
-
-✅ 評価：良好
+No variation in punctuation, connector usage, or word order.
+✅ Rating: Good
 
 ### ③ Spacetime Dynamics (RD)
 
-時系列「提交前 → 检查」の因果・順序が正しく保持。
+The temporal sequence “before submission → check carefully” is preserved without distortion.
 
-情報遷移が自然で、意図の伝達に齟齬なし。
-
-✅ 評価：良好
+Information transitions are natural, with no mismatch in intention or logical flow.
+✅ Rating: Good
 
 ### ④ FPE Standards (AC/TM/RD/FL)
 
-不自然な直訳傾向（例：「在提交之前」→「在提出之前」）を回避。
+Avoids literal-output pitfalls such as misinterpreting “在提交之前”.
 
-レジスターは中立的かつビジネス文脈適合。
+Register is neutral and suitable for business or operational documentation.
 
-用語（文件格式→ファイル形式）は安定。
-
-✅ 評価：非常に良好
+Term mapping (文件格式 → ファイル形式) is stable and consistent.
+✅ Rating: Very Good
 
 ### ⑤ Neural Alignment (Alignment)
 
-動詞対応「检查 → 確認する」も学習データとして再利用可能な整合性。
+Verb alignment (“检查 → 確認する”) remains trainable and reproducible for parallel-corpus use.
 
-文構造が過剰に自然化されず、並列コーパス適合度が高い。
+No over-naturalization; maintains structural transparency suitable for machine-learning alignment.
+✅ Rating: Good
 
-✅ 評価：良好
+## 💭 Optional Resonance
 
-💭 Optional Resonance
+The polite imperative tone is low-pressure and fits corporate documents and manuals.
 
-圧の低い丁寧指示文で、企業文書や業務マニュアルに自然に適合。
-
-音韻的なズレもなく滑らか。
+Rhythm is smooth with no phonetic irregularities.
 
 ## 🔁 Revision Proposal
 
-代替案（必要なら）：
-「提出する前に、必ずファイル形式を確認してください。」
-→ 強制度を高める場合のみ使用（通常は不要）。
+(Optional)
+“提出する前に、必ずファイル形式を確認してください。”
+→ Adds stronger emphasis; recommended only when heightened force is required.
 
 ## 📊 Recommended Score
 
 BLEU ≈ 94
 
 ROUGE-L ≈ 0.91
-
-総合評価：S（修正不要・高品質出力）
+Overall Rating: S (High quality; no revision required)
