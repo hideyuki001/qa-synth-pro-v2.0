@@ -1,4 +1,4 @@
-🌐 CN→JA Translation Self-Review — QA Synth Pro v3.0
+# 🌐 CN→JA Translation Self-Review — QA Synth Pro v3.0
 🔹 Source Text (CN)
 
 "请在提交之前仔细检查文件格式。"
@@ -7,7 +7,7 @@
 
 「提出する前に、ファイル形式をよく確認してください。」
 
-🧩 5-Axis Structural Self-Review (STS v2.0)
+## 🧩 5-Axis Structural Self-Review (STS v2.0)
 ① Semantic Layout (AC)
 
 原文の意味軸「提交之前 → 仔细检查文件格式」を完全保持。
@@ -55,13 +55,13 @@
 
 音韻的なズレもなく滑らか。
 
-🔁 Revision Proposal
+## 🔁 Revision Proposal
 
 代替案（必要なら）：
 「提出する前に、必ずファイル形式を確認してください。」
 → 強制度を高める場合のみ使用（通常は不要）。
 
-📊 Recommended Score
+## 📊 Recommended Score
 
 BLEU ≈ 94
 
