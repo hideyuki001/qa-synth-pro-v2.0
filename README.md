@@ -1,65 +1,158 @@
-# 🔁 QA Synth Pro v2.0 — Structural Translation Self-Review Template  
+🔥 QA Synth Pro v3.0 — CN→JA LSP-Grade Translation & Structural QA OS
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![GitHub stars](https://img.shields.io/github/stars/hideyuki001/qa-synth-pro-v2.0?style=social)](https://github.com/hideyuki001/qa-synth-pro-v2.0/stargazers)  
-[![Release](https://img.shields.io/github/v/release/hideyuki001/qa-synth-pro-v2.0)](https://github.com/hideyuki001/qa-synth-pro-v2.0/releases)  
+QA Synth Pro v3.0 is a CN→JA industrial-grade translation OS integrating:
 
-🎯 **Intended Audience**  
-Translators, translation trainees, educators, RLHF data curators
+META Framework v3 (evidence-gated evaluator)
 
-This repository provides a **structured and retrainable self-review template** for translation quality assurance, focusing on **sentence-level structural fidelity** and **AI-alignment suitability**.
+ModelRefiner v4.0 (creative induction layer)
 
----
+STS v2.0 (five-axis structural self-review)
 
-## 📐 Evaluation Axes (5D + Optional)
+LSP-Ready Supplement Framework v1.0 (terminology, register, fidelity control)
 
-1. **Semantic Layout** – Semantic core retention, syntax node mapping  
-2. **Structural Flow** – Syntactic trunk stability, punctuation, conjunction usage  
-3. **Spacetime Dynamics** – Temporal, causal, and emotional sequencing  
-4. **FPE Standards** – Post-editing corrections, style appropriateness, register consistency  
-5. **Neural Alignment** – Syntactic reproducibility, parallel corpus suitability  
+Designed for:
+Enterprise LSPs / AI trainers / professional translators / RLHF evaluators / linguists
 
-💭 **Optional**: Translation Resonance – Rhythm, imagery, poetic cadence
+🧭 What This Framework Provides
+✔ A complete CN→JA translation operating system
 
----
+Terminology-locked
 
-## 📘 Documentation
+Register-stable
 
-- `docs/system_instructions.md` → Full specification (8000 chars, transparency & reproducibility)  
-- `docs/scoring_logic.md` → Pseudo BLEU/ROUGE structural scoring logic  
-- `docs/self_review_axes.md` → Five-axis evaluation guide  
-- `docs/examples.md` → Sample reviews with revision proposals  
+Structure-aligned
 
----
+AI-trainable
 
-## 🧪 Examples
+Zero-hallucination constraints
 
-- `examples/en-ja_review.md` → English→Japanese review case  
-- `examples/cn-ja_review.md` → Chinese→Japanese review case  
-- `examples/en-fr_review.md` → English→French review case  
+✔ A fully transparent evaluation engine
 
----
+Evidence → Verdicts
 
-## 📂 Repository Structure
+No speculation / no impressionistic reasoning
 
-- `docs/` → Full specifications & guides  
-- `examples/` → Case studies (EN→JA, CN→JA, EN→FR, …)  
-- `templates/` → Self-review forms for Notion, Google Docs, Word (planned)  
+3-line justification discipline
 
----
+META v3 gating (NA allowed when evidence insufficient)
 
-## ⚙️ Deployment
+✔ A creative layer (opt-in only)
 
-✅ Usable as a self-review sheet in **Notion / Google Docs / Word**  
-✅ Compatible with BLEU/ROUGE auto-scores (comparative comments)  
-✅ Exportable to JSON/CSV for **RLHF training and translation QA education**
+HeartScape emotional mapping
 
----
+SYNAPSE operators
 
-## 🚀 Usage
+Controlled ΔS creative entropy
+(Only activated when explicitly requested)
 
-Example self-review workflow:
+📐 Five-Axis Structural Review (STS v2.0)
 
-```bash
-# Evaluate a translation draft with pseudo scoring
-python evaluate.py --input my_translation.txt --axes 5 --output review.json
+Semantic Layout
+Semantic core mapping, syntax node placement, weight preservation
+
+Structural Flow
+Sentence stability, trunk clarity, punctuation/connectors
+
+Spacetime Dynamics
+Temporal / causal / emotional sequencing
+
+FPE Standards
+Error correction, register fit, terminology stability
+
+Neural Alignment
+Parallel-corpus suitability, reproducibility, vector stability
+
+💭 Optional: Resonance Layer
+Linguistic acoustics, rhythm, imagery, poetic coherence
+
+🎛 Modes
+⭐ Default: LSP Industrial Translation Mode
+
+Maximum fidelity
+
+Minimum creativity
+
+Terminology locked
+
+Structure aligned to source
+
+No stylistic rewriting unless requested
+
+⭐ Creative Localization Mode（Opt-In）
+
+Uses ModelRefiner v4.0 (HeartScape + SYNAPSE) to refine cadence, imagery, and emotional clarity.
+
+⭐ Evaluator OS Mode（Diagnostic）
+
+Evidence-gated, rubric-based evaluation using META v3 discipline.
+
+📑 Output Format Expectations
+Translation Tasks
+[Translation Output] …
+[Self-Review]
+① Semantic Layout: …
+② Structural Flow: …
+③ Spacetime Dynamics: …
+④ FPE Standards: …
+⑤ Neural Alignment: …
+💭 Resonance: …
+
+🔁 Revision Proposal: …
+📊 Score: S / A / B
+
+Evaluation Tasks
+[EVALUATION]
+- Verdicts
+- 3-line justifications
+- Evidence chains
+- Flags
+
+📘 Documentation
+File	Description
+docs/system_instructions.md	Full CN→JA Translation OS (8,000 chars)
+docs/self_review_axes.md	5-axis structural evaluation guide
+docs/scoring_logic.md	Pseudo BLEU/ROUGE scoring model
+docs/examples.md	Example translation reviews
+
+🧪 Examples
+examples/cn-ja_review.md – CN→JA industrial review
+examples/en-ja_review.md – EN→JA structural review
+examples/en-fr_review.md – EN→FR QA case
+
+📂 Repository Structure
+docs/       → Full specifications & guides  
+examples/   → Case studies  
+templates/  → Notion / Google Docs / Word QA sheets  
+
+🚀 Use Cases
+
+LSP internal QA
+
+RLHF translation evaluation
+
+Parallel corpus alignment
+
+AI translation refinement
+
+Professional CN→JA workflows
+
+Creative localization (optional)
+
+⚙️ Integration & Deployment
+
+Works in Notion / Google Docs / Word
+
+Exportable to JSON / CSV for RLHF pipelines
+
+Usable as a structural scoring aid (BLEU/ROUGE approximations)
+
+🏷 Version History
+
+v3.0 – Current
+CN→JA Translation OS with META v3, ModelRefiner v4.0, STS v2.0
+
+v2.x – Legacy STS template (pre-OS architecture)
+
+📝 License
+
+This project is licensed under the MIT License.
